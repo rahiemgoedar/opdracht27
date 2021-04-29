@@ -32,14 +32,3 @@ console.log (priceIncludingVat(500,0)); //500
 console.log (priceIncludingVat(15,6)); //15.90
 
 
-/* //vat excercise 2
-/* const basePriceCalculation = function (number) {
-    console.log ("using your base price");
-    return number/100+1;
-};
-
-const priceIncludingVat = function (totalamount, number) {
-   console.log ("calculating your price");
-   const vatAmount = basePriceCalculation (number);
-    return baseprice*vatAmount; /* /* */
-/* }; */ */
